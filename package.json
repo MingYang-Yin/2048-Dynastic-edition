@@ -2,10 +2,12 @@
   "name": "2048-dynastic-edition",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/MingYang-Yin/2048-Dynastic-edition/issues"
   },
-  "homepage": "https://github.com/MingYang-Yin/2048-Dynastic-edition#readme"
+  "homepage": "https://github.com/MingYang-Yin/2048-Dynastic-edition#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "lite-server": "^2.6.1"
+  }
 }

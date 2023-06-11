@@ -106,7 +106,7 @@ function updateBoardView(){
 }
 
 function generateOneNumber(){
-    if(nospace(board)){
+    if(noSpace(board)){
         return false;
     }
 

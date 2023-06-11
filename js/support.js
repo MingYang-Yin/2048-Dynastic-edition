@@ -273,3 +273,7 @@ function share(){
 function help(){
     alert("使用上、下、左、右方向键控制游戏进行!");
 }
+
+module.exports = {
+    getNumberBackgroundColor
+}
